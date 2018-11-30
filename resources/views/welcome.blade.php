@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Website de la muerte
                 </div>
 
                 <div class="links">
