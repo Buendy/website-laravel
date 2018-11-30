@@ -12,9 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
-Auth::routes();
+Route::get('/about', function(){
+   return view('about');
+});
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/contact', function(){
+    return view('contact');
+});
+
+
+Route::post('/contact/submit', 'MessagesController@submit');
+
+Route::get('/messages', 'MessagesController@getMessages');
+/*Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');*/

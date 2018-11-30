@@ -1,3 +1,11 @@
+@extends('layouts.layout')
+
+@section('content')
+<h1>HOME</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias amet, blanditiis debitis doloremque ea est ex excepturi fugiat hic id iure minus nulla provident quisquam quos, sed veritatis voluptates!</p>
+@endsection
+
+{{--
 @extends('layouts.app')
 
 @section('content')
@@ -21,3 +29,4 @@
     </div>
 </div>
 @endsection
+--}}
